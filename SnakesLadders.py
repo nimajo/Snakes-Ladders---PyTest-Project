@@ -1,4 +1,6 @@
 import turtle
+import os 
+os.chdir(os.path.dirname(__file__)) #Changes Working Directory to the file's directory
 
 # global score variables used for scoreboard
 score_1 = 0
